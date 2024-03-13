@@ -1,10 +1,9 @@
 version: "3.8"
 services:
   app:
-    image: openai-demo-app:1
+    image: agenceam:1.0.0
     build:
       context: ./
-      target: dev
       dockerfile: Dockerfile
     volumes:
       - .:/app
