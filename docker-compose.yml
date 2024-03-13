@@ -1,7 +1,7 @@
-version: "1"
+version: "3.8"
 services:
   app:
-    image: openai-demo-app
+    image: openai-demo-app:1
     build:
       context: ./
       target: dev
